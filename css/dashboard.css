@@ -1,0 +1,71 @@
+.headerlogo{
+	
+}
+
+.userinfo {
+    float: right;
+    margin-top: -40px;
+    margin-right: 20px;
+}
+.horizontalnav {
+    background-color: #800080;
+    overflow: hidden;
+    margin-left: 8%;
+}
+
+/* Style the links inside the navigation bar */
+.horizontalnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.horizontalnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.horizontalnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+.tabletitle{
+	margin-left: 10%;
+    margin-top: 30px;
+}
+.btnimages{
+
+	   float: right;
+    margin-top: -30px;
+}
+table {
+    font-family: arial, sans-serif;
+   border-collapse: collapse;
+  
+    width: 80%;
+    margin-left: 10%;
+    margin-top:15px; 
+}
+
+td, th {
+    border-bottom: : 0px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+}
+tr.border_bottom  {
+  border-bottom:1pt solid black;
+}
+.btncontinue
+{
+	background-color:  	#00BFFF;
+    border-radius: 27px;
+    height: 30px;
+    margin-right: 55%;
+    width: 120px;
+    color:white;
+}
