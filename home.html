@@ -9,27 +9,35 @@
 <body>
 	
 	<section>
-		<div> <img src="images/Logo-3x.png"/ alt="Smiley face" width="200" height="60"></div>
-		<div class='userinfo'> welcome sam  <!-- img src="images/large.jpg"/ width="50" height="50"> --> </div>
+		<div style="padding: 10px"> <img src="images/Logo-3x.png"/ alt="Smiley face" class="headerlogo"></div>
+		<div class='userinfo'> welcome sam  <!-- <img src="images/large.jpg"/ class="logoutbtn">  --></div>
 	</section>
-	<section class='left-nav'>
-		left nav
-	</section>
+		<section class='left-nav'>
+		
+				 <a href="#" class='active'>Management</a>
+				  <a href="#">Report</a>
+		 </section>
 		<section class='content-area'>
 			 <section class="horizontalnav">
 				  <a class="active" href="#">Client</a>
 				  <a href="#">Provider</a>
 				  <a href="#">Hospital</a>
-				  <a href="#">Admin</a>
+				  <a href="#">Hospital Admin</a>
 			</section> 
-		<section id='tableheader'>
+
+				<section class="table-content">
+					
+				
+
+
+		<section id='tableheader' class="tablecontainer">
 			<div class='tabletitle' > Provider Management</div>	
 		 <div class='btnimages' ><button class='btncontinue' type="button" onclick="alert('Hello world!')">+ Add Provider</button> </div>
 		</section>
-		<section id='tablesection'>
+		<section id='tablesection' class="table-section">
 			
 
-				<table cellspacing="0" cellpadding="0" frame="box">
+				<table cellspacing="0" cellpadding="0" frame="box" border="1">
 	  <tr class="border_bottom">
 	    <th>Name</th>
 	    <th>Email</th>
@@ -90,6 +98,7 @@
 	  </tr>
 
 </table>
+</section>
 </section>
 		</section>
 </body>

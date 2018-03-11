@@ -43,21 +43,26 @@ q:before, q:after {
     content: '';
     content: none;
 }
+.headerlogo{
+
+        height: 50px;
+    margin: 10px 0 0 10px;
+}
 table {
     border-collapse: collapse;
     border-spacing: 0;
 }
 
-
-
 .left-nav{
-    width: 19%;
+    width: 12%;
     display: inline-block;
+      height: :100%;
 }
 
 .content-area{
-    width: 80%;
+    width: 88%;
     display: inline-block;
+     background-color: #f1f1f1;
 }
 
 .userinfo {
@@ -93,6 +98,8 @@ table {
 }
 .tabletitle{
     margin-top: 30px;
+    color: #4d4d4d;
+    font-size: 18px;
 }
 .btnimages{
 
@@ -102,17 +109,23 @@ table {
 table {
     font-family: arial, sans-serif;
    border-collapse: collapse;
-    width: 90%;
+   width: 100%;
     margin-top:15px; 
+    border: 1px solid;
+    padding: 10px;
+    color: #4d4d4d;
+    box-shadow: 0px 0px 1px 1px #888888;
+
+
 }
 
 td, th {
-    border-bottom: : 0px solid #dddddd;
+    border-bottom: : 0px solid #4d4d4d;
     text-align: center;
     padding: 8px;
 }
 tr.border_bottom  {
-  border-bottom:1pt solid black;
+  border-bottom:1pt solid #4d4d4d;
 }
 .btncontinue {
     background-color: #0ec0ce;
@@ -122,4 +135,40 @@ tr.border_bottom  {
     width: 120px;
     color: white;
     border: none;
+}
+.left-nav{
+    height: 100%;
+    margin-top: 0px;
+    float: left;
+    margin-left: 0px;
+    width: 12%;
+}
+
+.left-nav a {
+   
+    color: black; /* Black text color */
+    display: block; /* Make the links appear below each other */
+    padding: 12px; /* Add some padding */
+    text-decoration: none; /* Remove underline from links */
+    color: #f2f2f2;
+    text-align: center;
+    background-color: #808080;
+    margin-bottom: -2px;
+}
+
+.left-nav a.active {
+     background-color: #696969;
+    color: white;
+}
+.logoutbtn{
+    height: 70px;
+    width: 70px;
+}
+.tablecontainer{
+    padding-left: 30px;
+    margin: 25px 0;
+}
+
+.table-content{
+    padding: 30px;
 }
